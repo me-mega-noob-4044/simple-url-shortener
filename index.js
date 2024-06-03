@@ -3,7 +3,7 @@ const http = require("http");
 const WebSocket = require("ws");
 const path = require("path");
 const shortid = require("shortid");
-const validUrl = require('valid-url');
+const validUrl = require("valid-url");
 
 const app = express();
 const server = http.createServer(app);
