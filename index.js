@@ -32,7 +32,7 @@ wss.on("connection", (ws) => {
 
             ws.send(`/s/${id}`);
         } else {
-            ws.send(`FAILED`);
+            ws.send("FAILED");
         }
     });
 });
